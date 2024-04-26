@@ -1,0 +1,14 @@
+D:\Bridgelabz_DSA\Queue\Queue\bin\Debug\net7.0\Queue.exe
+D:\Bridgelabz_DSA\Queue\Queue\bin\Debug\net7.0\Queue.deps.json
+D:\Bridgelabz_DSA\Queue\Queue\bin\Debug\net7.0\Queue.runtimeconfig.json
+D:\Bridgelabz_DSA\Queue\Queue\bin\Debug\net7.0\Queue.dll
+D:\Bridgelabz_DSA\Queue\Queue\bin\Debug\net7.0\Queue.pdb
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.AssemblyInfoInputs.cache
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.AssemblyInfo.cs
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.csproj.CoreCompileInputs.cache
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.dll
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\refint\Queue.dll
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.pdb
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.genruntimeconfig.cache
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\ref\Queue.dll
