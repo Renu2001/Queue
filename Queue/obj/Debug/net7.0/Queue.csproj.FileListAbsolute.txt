@@ -12,3 +12,4 @@ D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\refint\Queue.dll
 D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.pdb
 D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.genruntimeconfig.cache
 D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\ref\Queue.dll
+D:\Bridgelabz_DSA\Queue\Queue\obj\Debug\net7.0\Queue.sourcelink.json

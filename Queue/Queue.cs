@@ -9,7 +9,7 @@ namespace Queue
 {
     public class Queue
     {
-        int Rear, Front, MaxSize, count;
+        int Rear, Front, MaxSize, count, position;
         int[] queue;
 
         public void CreateQueue(int size)
@@ -19,29 +19,37 @@ namespace Queue
             MaxSize = size;
             queue = new int[size];
             count = 0;
+            position = 0;
             Console.WriteLine("Queue Created");
         }
 
         public void Enqueue(int number)
         {
-            Rear++;
+            Rear = (Rear+1)%MaxSize;
             count++;
             queue[Rear] = number;
+            position++;
             Console.WriteLine("Element Added to queue");
         }
 
         public void Dequeue()
         {
             int temp = queue[Front];
-            Front++;
+            Front = (Front+1)%MaxSize;
             count--;
+            position--;
         }
 
         public void PrintQueue() 
         {
-            for(int i = Front; i <= Rear; i++)
+            Console.Write("Elements in queue are ");
+            int i = Front;
+            int c = 0;
+            while (c < position)
             {
-                Console.Write(queue[i] + " ");
+                Console.Write(queue[i] + "  ");
+                i = (i + 1) % MaxSize;
+                c++;
             }
         }
 
@@ -67,10 +75,11 @@ namespace Queue
 
         public void Clear()
         {
-            while (Rear >= Front)
+            while (position > 0)
             {
-                Front++;
+                Front = (Front + 1) % MaxSize;
                 count--;
+                position--;
             }
         }
 
@@ -80,7 +89,7 @@ namespace Queue
         }
         public bool IsFull()
         {
-            if(Rear == MaxSize-1)
+            if(position == MaxSize)
                 return true;
             else 
                 return false;
@@ -88,7 +97,7 @@ namespace Queue
         }
         public bool IsEmpty()
         {
-            if(Front > Rear) 
+            if(position == 0) 
                 return true;
             else 
                 return false;

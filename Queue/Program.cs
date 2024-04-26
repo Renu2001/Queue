@@ -77,6 +77,9 @@
                             Console.WriteLine("Queue is empty");
                         break;
 
+                    case 0:
+                        break;
+
                     default:
                         Console.WriteLine("Wrong Choice");
                         break;
